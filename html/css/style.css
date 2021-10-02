@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+.menuElement{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa';
+    display: block;
+    padding: 40px;
+    font-size: 15px;
+    border-left: solid 3px black;
+    flex-grow: 1;
+}
+li:last-child{
+    font-size: 10px;
+
+}
+.nav-flex-item-5{
+    flex-grow: 5;
+}
+/* comfortaa-regular - latin */
+@font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/comfortaa-v30-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/comfortaa-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/comfortaa-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/comfortaa-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/comfortaa-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/comfortaa-v30-latin-regular.svg#Comfortaa') format('svg'); /* Legacy iOS */
+  }
+  
+  header{
+    background: url("../image/header_background.jpg");
+    font-family: 'Comfortaa';
+    text-align: center;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #020305;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-left: 250px;
+    padding-top: 100px;
+  }
+.footer_flex{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_flex_items{
+    font-family: 'Comfortaa';
+    display: block;
+    padding: 40px;
+    font-size: 15px;
+}
+.c
+{
+    display: flex;
+    justify-content: space-between;
+}
+.about-flex-items{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa';
+    display: block;
+    padding: 40px;
+    font-size: 15px;
+}
+.blocks1_myself{
+    position:static;
+    height: 300px;
+}
+.blocks2_myself{
+    position: static;
+    height: 300px;
+}
+.blocks3_myself{
+    position: static;
+    height: 300px;
+}
+.div_center
+{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    Justify-content:space-around;
+    background-color:  
+}
+
